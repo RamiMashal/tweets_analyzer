@@ -51,7 +51,7 @@ When collecting only 100 posts, it would be best to search for a word that is vi
 Therefore, the recommendation is to look for a word, hashtag or phrase that is "mildly viral", if you can say so.
 
 
-####################################### SPANISH ###########################################
+################## SPANISH ##################
 
 ------------ CARACTERÍSTICAS:
 
