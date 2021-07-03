@@ -12,6 +12,7 @@
 - It also saves this information in csv and jpg format.
   
 * The first thing you should do is create two folders called: saved_csv and saved_figs. The results will be saved there.
+* Second, you must have credentials for Twitter development applications: https://developer.twitter.com/
 
 ------------ WHY ONLY 100 POST?
 
@@ -69,6 +70,7 @@ Therefore, the recommendation is to look for a word, hashtag or phrase that is "
 	- Además guarda esta información en formato csv y jpg.
   
 * Lo primero que debes hacer es crear dos carpetas llamadas: saved_csv y saved_figs. Allí se guardarán los resultados.
+* En segundo lugar, debes tener credenciales para las aplicaciones de desarrollo de twitter: https://developer.twitter.com/
 
 ------------ ¿ POR QUÉ SOLO 100 POST?
 
