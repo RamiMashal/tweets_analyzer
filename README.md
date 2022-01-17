@@ -1,20 +1,20 @@
-## Tweets Analyzer App - Using Matplotlib, Nltk, Pandas, RE, Textblob and Wordcloud.
+# Tweets Analyzer App - Using Matplotlib, Nltk, Pandas, RE, Textblob and Wordcloud.
 
------------- FEATURES:
+## **FEATURES**:
 
 * This app asks the user for a word, phrase or hashtag and returns:
 
-- General history of the last 100 tweets.
-- Comparative history of Likes and Retweets.
-- Cloud of most used hashtags.
-- Cloud of most used words.
-- General sentiment graph.
-- It also saves this information in csv and jpg format.
+	- General history of the last 100 tweets.
+	- Comparative history of Likes and Retweets.
+	- Cloud of most used hashtags.
+	- Cloud of most used words.
+	- General sentiment graph.
+	- It also saves this information in csv and jpg format.
   
 * The first thing you should do is create two folders called: saved_csv and saved_figs. The results will be saved there.
 * Second, you must have credentials for Twitter development applications: https://developer.twitter.com/
 
------------- WHY ONLY 100 POST?
+## **WHY ONLY 100 POST?**
 
 The amount of post returned by the app can be modified. But, for this exercise, I thought it best to limit it to 100 posts for the following reasons:
 
@@ -28,6 +28,7 @@ In the same way, an Http 429 (Too Many Requests) error may arise. The reason is,
 
 If this error comes up, I think the solution is to put a time.sleep as shown below:
 
+```python
 def tweets_polarity (self, tweet):
 "" "
         This function sets a polarity index for each tweet.
@@ -40,6 +41,7 @@ def tweets_polarity (self, tweet):
 -----> time.sleep (5);
         
         return result;
+```
 
 However, this solution does not work once the error has occurred. The reason I don't include the time.sleep directly is that the execution time would be too slow and programming would be very tedious.
 
